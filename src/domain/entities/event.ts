@@ -17,6 +17,6 @@ export interface Event {
   dataHora: Date;
   endereco: Address;
   status: string;
-  valorEntrada: unknown;
+  valorEntrada: number;
   ticketsVendidos: number;
 }

@@ -18,5 +18,5 @@ export interface AuthRepository {
     params: SendPasswordResetEmailParams,
   ): Promise<boolean>;
   updatePassword(params: UpdatePasswordParams): Promise<boolean>;
-  readonly userCredentials: User;
+  readonly userCredentials: User | null;
 }

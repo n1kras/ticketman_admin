@@ -33,7 +33,7 @@ export interface EventCreateParams {
   descricao: string;
   dataHora: Date;
   endereco: Address;
-  valorEntrada: unknown;
+  valorEntrada: number;
 }
 
 export interface EventUpdateParams {
@@ -42,7 +42,7 @@ export interface EventUpdateParams {
   descricao: string;
   dataHora: Date;
   endereco: Address;
-  valorEntrada: unknown;
+  valorEntrada: number;
 }
 
 export interface CancelEventParams {
